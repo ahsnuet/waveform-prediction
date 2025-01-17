@@ -1,14 +1,10 @@
-# waveform-prediction
+# Waveform-prediction
 Harnessing Machine Learning Framework for Data-Driven Predictive Waveform Optimization in Piezoelectric Inkjet Printing Utilizing Multi-Material Inks for Enhanced Droplet Control
 
 # Conda Environment Setup Guide
-
-This guide provides instructions for installing Conda, creating a Conda environment, and installing the required dependencies using the provided `environment.yml` file.
-
-
+This guide provides instructions for installing Conda, creating a Conda environment, and installing the required dependencies using the provided `environment.yml` file, and running the deep learning (DL) and macchine learning (ML) models.
 
 # Instructions to Install Conda and Set Up the Environment
-
 Step 1. Install Conda:
    - Download the installer for Miniconda or Anaconda:
      - Miniconda: https://docs.conda.io/en/latest/miniconda.html
@@ -48,3 +44,14 @@ Notes:
      pip install --upgrade pip
    - The GPU libraries are configured for Nvidia GTX 1650. For other GPUs, refer to the TensorFlow compatibility guide to adjust the library versions: https://www.tensorflow.org/install/source
    - Experimental dataset used in this article is available online at https://www.eecs.yorku.ca/~grau/MLIJ/Supplementary%20material.zip.
+
+# File descriptions:
+   Following files can be run using Jupyter-lab under the Anaconda environment as described in above section.
+   - data_split.ipynb
+     This file helps to concatenate individual dataset files to a single file, and then splitting that file into train and test datasets.
+   - DL_model_train_test.ipynb
+     The data pre-processing can be performed on the dataset, and then DL model can be trained and evaluated on preprocessed data file using this script.
+   - GSCV_ML_model_train_test.ipynb
+     The data pre-processing can be performed on the dataset, and then a GridSearch operation be performed on the ML models to find the best optimal hyperparameters of each model.
+   - ML_model_train_test.ipynb
+     The data pre-processing can be performed on the dataset, and then ML models can be trained and evaluated on preprocessed data file using this script.
