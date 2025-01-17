@@ -45,7 +45,7 @@ Notes:
    - The GPU libraries are configured for Nvidia GTX 1650. For other GPUs, refer to the TensorFlow compatibility guide to adjust the library versions: https://www.tensorflow.org/install/source
    - Experimental dataset used in this article is available online at https://www.eecs.yorku.ca/~grau/MLIJ/Supplementary%20material.zip.
 
-# File descriptions:
+# File Descriptions:
    Following files can be run using Jupyter-lab under the Anaconda environment as described in above section.
    - data_split.ipynb
      This file helps to concatenate individual dataset files to a single file, and then splitting that file into train and test datasets.
