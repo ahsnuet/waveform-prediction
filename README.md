@@ -47,4 +47,4 @@ Notes:
      conda install pip
      pip install --upgrade pip
    - The GPU libraries are configured for Nvidia GTX 1650. For other GPUs, refer to the TensorFlow compatibility guide to adjust the library versions: https://www.tensorflow.org/install/source
-   - Experimental dataset used in this article is available online at https://www.eecs.yorku.ca/~grau/MLIJ/Supplementary material.zip
+   - Experimental dataset used in this article is available online at [comprehensive dataset]https://www.eecs.yorku.ca/~grau/MLIJ/Supplementary%20material.zip).
