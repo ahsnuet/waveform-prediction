@@ -2,7 +2,7 @@
 Harnessing Machine Learning Framework for Data-Driven Predictive Waveform Optimization in Piezoelectric Inkjet Printing Utilizing Multi-Material Inks for Enhanced Droplet Control
 
 # Conda Environment Setup Guide
-This guide provides instructions for installing Conda, creating a Conda environment, and installing the required dependencies using the provided `environment.yml` file, and running the deep learning (DL) and macchine learning (ML) models.
+This guide provides instructions for installing Conda, creating a Conda environment, and installing the required dependencies using the provided `environment.yml` file, and running the deep learning (DL) and machine learning (ML) models.
 
 # Instructions to Install Conda and Set Up the Environment
 Step 1. Install Conda:
