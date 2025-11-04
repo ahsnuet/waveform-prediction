@@ -1,5 +1,5 @@
 # waveform-prediction
-Waveform Estimation in Piezoelectric Inkjet Printing Utilizing Multi-Material Inks
+Intelligent Waveform Estimation in Piezoelectric Inkjet Printing for Target Droplet Characteristics
 
 # Conda Environment Setup Guide
 This guide provides instructions for installing Conda, creating a Conda environment, and installing the required dependencies using the provided `environment.yml` file, and running the deep learning (DL) and machine learning (ML) models.
